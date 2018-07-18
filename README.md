@@ -12,4 +12,7 @@ Here is the example graph with 4 nodes and 5 edges. Our task is to segment these
 ![graph](https://github.com/mjDelta/Graph-Cut-Segmentation/blob/master/imgs/graph.png)</br>
 
 ### Graph Cut in image segmentation
-
+The keypoint of applying Graph-Cut in Image Segmentation task is building the edges weights among the nodes. And we can compute edges weights by the following equations.```P is probability of pixel i belonging to foreground or background. ```</br>
+![graph](https://github.com/mjDelta/Graph-Cut-Segmentation/blob/master/imgs/wsi.png)</br>
+![graph](https://github.com/mjDelta/Graph-Cut-Segmentation/blob/master/imgs/wit.png)</br>
+![graph](https://github.com/mjDelta/Graph-Cut-Segmentation/blob/master/imgs/wij.png)</br>
